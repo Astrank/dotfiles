@@ -145,7 +145,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
-exec --no-startup-id sleep 2 && /usr/bin/nitrogen --set-zoom-fill --random 'Martín/Imagenes/Wallpapers'
+exec --no-startup-id sleep 2 && /usr/bin/nitrogen --set-zoom-fill --random 'martin/Imagenes/Wallpapers'
 #exec --no-startup-id feh --bg-fill /home/martin/Martín/Imagenes/
 
 # set powersavings for display:
