@@ -20,8 +20,8 @@ hide_edge_borders smart
 # set inner/outer gaps
 gaps inner 8
 gaps outer -8
-gaps horizontal 4
-gaps bottom 4
+gaps horizontal 2
+gaps bottom 2
 
 # workspace specific gaps
 workspace $ws2 gaps outer -8
