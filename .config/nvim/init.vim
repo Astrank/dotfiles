@@ -11,6 +11,7 @@ call plug#begin()
 Plug 'https://github.com/tomasiser/vim-code-dark'
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/preservim/nerdtree'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
@@ -21,7 +22,5 @@ hi EndOfBuffer guibg=NONE ctermbg=NONE
 highlight LineNr ctermbg=none
 let g:airline#extensions#whitespace#enabled = 0
 
-nnoremap <C-1> :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-r> :NERDTreeFocus<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
