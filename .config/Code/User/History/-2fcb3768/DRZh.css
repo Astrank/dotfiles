@@ -1,0 +1,202 @@
+:root {
+    --clr-neutral-100: #fff;
+    --clr-neutral-200: rgb(245, 245, 245);
+    --clr-neutral-300: rgb(108, 108, 108);
+    --clr-neutral-600: rgb(24, 24, 24);
+    --clr-neutral-900: rgb(30, 30, 30);
+
+    --clr-primary: rgb(41, 47, 56);
+    --clr-accent: rgba(96, 165, 250);
+}
+
+/* --- Reset --- */
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* Set core body defaults */
+body {
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen,
+        Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    color: var(--clr-primary);
+    background-color: var(--clr-neutral-200);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+::selection {
+    background: var(--yellow);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.primary-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.mobile-nav-toggle {
+    display: none;
+}
+
+.icon-hamburguer {
+    height: 1rem;
+}
+
+.icon-close {
+    height: 1rem;
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .mobile-nav-toggle {
+        display: block;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        padding: 0 7rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        padding: 0 10rem;
+    }
+}
+
+/* --- Contact form --- */
+
+.btn-submit {
+    background-color: var(--clr-neutral-600);
+    color: var(--clr-neutral-100);
+    padding: 1rem;
+    align-self: center;
+    border-radius: 1px;
+}
+
+/*
+@media (min-width: 640px)
+@media (min-width: 768px)
+@media (min-width: 1024px)
+@media (min-width: 1280px)
+@media (min-width: 1536px)
+*/

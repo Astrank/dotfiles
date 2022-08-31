@@ -1,0 +1,15 @@
+.switch[data-state="checked"] {
+    background-color: rgb(96, 165, 250);
+}
+
+.thumb[data-state="checked"] {
+    transform: translate(2rem);
+}
+
+.dialog {
+    animation: translation 0.3s;
+}
+
+ul, ol {
+    list-style: disc inside;
+}

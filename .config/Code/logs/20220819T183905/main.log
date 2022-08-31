@@ -1,0 +1,5 @@
+[2022-08-19 18:39:09.224] [main] [info] update#setState idle
+[2022-08-19 18:39:15.061] [main] [info] Starting extension host with pid 23768 (fork() took 14 ms).
+[2022-08-19 18:39:39.225] [main] [info] update#setState checking for updates
+[2022-08-19 18:39:39.234] [main] [info] update#setState available for download
+[2022-08-19 19:40:34.661] [main] [info] Extension host with pid 23768 exited with code: 0, signal: null.

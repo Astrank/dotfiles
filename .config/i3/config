@@ -28,6 +28,8 @@ workspace $ws2 gaps outer -8
 workspace $ws2 gaps inner 8
 workspace $ws4 gaps outer -8
 workspace $ws4 gaps inner 8
+workspace $ws6 gaps outer -8
+workspace $ws6 gaps inner 8
 
 # resize window (you can also use the mouse for that):
 #mode "resize" {
@@ -81,9 +83,11 @@ set $ws10 "10:"
 # bind program to workspace and focus to them on startup:
 assign [class="Alacritty"] $ws1
 assign [class="(?i)brave"] $ws2
-assign [class="Thunar"] $ws3
+assign [class="(?i)code"] $ws3
+assign [class="(?i)Okular"] $ws3
+assign [class="(?i)Firefox"] $ws4
 assign [class="REAPER"] $ws4
-assign [class="TelegramDesktop"] $ws5
+assign [class="Thunar"] $ws5
 
 # automatic set focus new window if it opens on another workspace then the current:
 for_window [class=Alacritty] focus
@@ -117,7 +121,7 @@ for_window [class=TelegramDesktop] focus
 # For modifications, it can be copied to ~/.config/picom/picom.conf or ~/.config/picom.conf
 #
 # using default config 
-#exec_always --no-startup-id picom -b
+# exec_always --no-startup-id picom -b
 #
 # for custom config:
 exec_always --no-startup-id picom --config  ~/.config/picom/picom.conf
