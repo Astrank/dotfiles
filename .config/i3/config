@@ -13,6 +13,7 @@ workspace_layout default
 
 # border indicator on windows:
 new_window pixel 1
+for_window [all] border pixel 0
 
 # hide borders when there's one window only 
 hide_edge_borders smart
@@ -24,8 +25,8 @@ gaps horizontal 2
 gaps bottom 2
 
 # workspace specific gaps
-workspace $ws2 gaps outer -8
-workspace $ws2 gaps inner 8
+workspace $ws2 gaps outer 0
+workspace $ws2 gaps inner 0
 workspace $ws4 gaps outer -8
 workspace $ws4 gaps inner 8
 workspace $ws6 gaps outer -8
@@ -85,6 +86,8 @@ assign [class="Alacritty"] $ws1
 assign [class="(?i)brave"] $ws2
 assign [class="(?i)code"] $ws3
 assign [class="(?i)Okular"] $ws3
+assign [class="(?i)Strawberry"] $ws3
+assign [class="(?i)Discord"] $ws3
 assign [class="(?i)Firefox"] $ws4
 assign [class="REAPER"] $ws4
 assign [class="Thunar"] $ws5
