@@ -1,3 +1,0 @@
-[2022-08-22 17:44:05.079] [sharedprocess] [info] Starting worker process with pid 3969 (type: fileWatcher, window: 1).
-[2022-08-22 17:44:09.273] [sharedprocess] [info] Deleted from disk esbenp.prettier-vscode /home/martin/.vscode/extensions/esbenp.prettier-vscode-9.5.0
-[2022-08-22 17:44:10.398] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

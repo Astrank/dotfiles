@@ -2,8 +2,8 @@
     "telemetry.machineId": "fd892dca08c57fcf55ac92580c4c5e60dc2d0c5f8b7d4da2daa80281b81c231b",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/martin/projects/visual-fretboard",
-            "backupPath": "/home/martin/.config/Code/Backups/2f02a499eaf1c261e60c7ce15d4db75f",
+            "folder": "file:///home/martin/projects/portfolio",
+            "backupPath": "/home/martin/.config/Code/Backups/d4a399112a1f3bd0f73aed7936e54910",
             "uiState": {
                 "mode": 1,
                 "x": 10,
@@ -33,7 +33,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 211,
+            "sideBarWidth": 252,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -85,7 +85,39 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/martin/projects/visual-fretboard",
+                                        "external": "file:///home/martin/projects/portfolio",
+                                        "path": "/home/martin/projects/portfolio",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/portfolio"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/martin/projects/visual-fretboard-vite",
+                                        "path": "/home/martin/projects/visual-fretboard-vite",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/visual-fretboard-vite"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/martin/.local/share/Trash/files/visual-fretboard-vite",
+                                        "path": "/home/martin/.local/share/Trash/files/visual-fretboard-vite",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.local/share/Trash/files/visual-fretboard-vite"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/martin/projects/visual-fretboard",
                                         "path": "/home/martin/projects/visual-fretboard",
                                         "scheme": "file"
@@ -97,23 +129,12 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/martin/projects/test-cm",
-                                        "path": "/home/martin/projects/test-cm",
+                                        "external": "file:///home/martin/projects/vero-metellico",
+                                        "path": "/home/martin/projects/vero-metellico",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/projects/test-cm"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/martin/martin/Programacion/HTML%2C%20CSS%2C%20JavaScript/files/hltv",
-                                        "path": "/home/martin/martin/Programacion/HTML, CSS, JavaScript/files/hltv",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/martin/Programacion/HTML, CSS, JavaScript/files/hltv"
+                                    "label": "~/projects/vero-metellico"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -130,12 +151,23 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/martin/projects/natural-freedom",
-                                        "path": "/home/martin/projects/natural-freedom",
+                                        "external": "file:///home/martin/projects/estudio",
+                                        "path": "/home/martin/projects/estudio",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/projects/natural-freedom"
+                                    "label": "~/projects/estudio"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/martin/projects/law-firm",
+                                        "path": "/home/martin/projects/law-firm",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/law-firm"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -152,34 +184,125 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/martin/projects/invitacion",
-                                        "path": "/home/martin/projects/invitacion",
+                                        "external": "file:///home/martin/projects/dynamic-blog",
+                                        "path": "/home/martin/projects/dynamic-blog",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/projects/invitacion"
+                                    "label": "~/projects/dynamic-blog"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/martin/projects/invitacion-old",
-                                        "path": "/home/martin/projects/invitacion-old",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/projects/invitacion-old"
+                                    "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "openRecentFolder",
+                                    "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/martin/projects",
-                                        "path": "/home/martin/projects",
+                                        "external": "file:///home/martin/projects/visual-fretboard/src/store/index.js",
+                                        "path": "/home/martin/projects/visual-fretboard/src/store/index.js",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/projects"
+                                    "label": "~/projects/visual-fretboard/src/store/index.js"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/martin/projects/visual-fretboard/src/components/Fretboard.vue",
+                                        "path": "/home/martin/projects/visual-fretboard/src/components/Fretboard.vue",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/visual-fretboard/src/components/Fretboard.vue"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/martin/projects/visual-fretboard-vite/vscode",
+                                        "path": "/home/martin/projects/visual-fretboard-vite/vscode",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/visual-fretboard-vite/vscode"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/martin/projects/visual-fretboard-vite/vscode-docs",
+                                        "path": "/home/martin/projects/visual-fretboard-vite/vscode-docs",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/visual-fretboard-vite/vscode-docs"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/martin/projects/estudio/styles/globals.css",
+                                        "path": "/home/martin/projects/estudio/styles/globals.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/estudio/styles/globals.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/martin/projects/law-firm/components/Header.jsx",
+                                        "path": "/home/martin/projects/law-firm/components/Header.jsx",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/law-firm/components/Header.jsx"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/martin/projects/law-firm/pages/index.js",
+                                        "path": "/home/martin/projects/law-firm/pages/index.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/law-firm/pages/index.js"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/martin/projects/estudio/styles/Squeeze.module.css",
+                                        "path": "/home/martin/projects/estudio/styles/Squeeze.module.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/estudio/styles/Squeeze.module.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/martin/projects/estudio/components/Squeeze.js",
+                                        "path": "/home/martin/projects/estudio/components/Squeeze.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/estudio/components/Squeeze.js"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/martin/projects/peelandstick/pages/index.js",
+                                        "path": "/home/martin/projects/peelandstick/pages/index.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/peelandstick/pages/index.js"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -228,6 +351,21 @@
                         "id": "saveAll",
                         "label": "Save A&&ll",
                         "enabled": false
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "submenuitem.MenubarShare",
+                        "label": "Share",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "workbench.profiles.actions.exportProfile",
+                                    "label": "Export Settings Profile (Default)..."
+                                }
+                            ]
+                        }
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -587,6 +725,29 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "editor.action.toggleMinimap",
+                                    "label": "&&Minimap",
+                                    "checked": true
+                                },
+                                {
+                                    "id": "breadcrumbs.toggle",
+                                    "label": "&&Breadcrumbs",
+                                    "checked": true
+                                },
+                                {
+                                    "id": "editor.action.toggleRenderWhitespace",
+                                    "label": "&&Render Whitespace",
+                                    "checked": true
+                                },
+                                {
+                                    "id": "editor.action.toggleRenderControlCharacter",
+                                    "label": "Render &&Control Characters",
+                                    "checked": true
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.zoomIn",
                                     "label": "&&Zoom In"
                                 },
@@ -724,24 +885,8 @@
                         "label": "&&Word Wrap"
                     },
                     {
-                        "id": "editor.action.toggleMinimap",
-                        "label": "&&Minimap",
-                        "checked": true
-                    },
-                    {
-                        "id": "breadcrumbs.toggle",
-                        "label": "&&Breadcrumbs",
-                        "checked": true
-                    },
-                    {
-                        "id": "editor.action.toggleRenderWhitespace",
-                        "label": "&&Render Whitespace",
-                        "checked": true
-                    },
-                    {
-                        "id": "editor.action.toggleRenderControlCharacter",
-                        "label": "Render &&Control Characters",
-                        "checked": true
+                        "id": "editor.action.toggleStickyScroll",
+                        "label": "&&Sticky Scroll"
                     }
                 ]
             },
@@ -899,23 +1044,28 @@
                     },
                     {
                         "id": "editor.action.revealDefinition",
-                        "label": "Go to &&Definition"
+                        "label": "Go to &&Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.revealDeclaration",
-                        "label": "Go to &&Declaration"
+                        "label": "Go to &&Declaration",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToTypeDefinition",
-                        "label": "Go to &&Type Definition"
+                        "label": "Go to &&Type Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToImplementation",
-                        "label": "Go to &&Implementations"
+                        "label": "Go to &&Implementations",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToReferences",
-                        "label": "Go to &&References"
+                        "label": "Go to &&References",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1143,7 +1293,7 @@
                     },
                     {
                         "id": "update.showCurrentReleaseNotes",
-                        "label": "&&Release Notes"
+                        "label": "Show &&Release Notes"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1441,11 +1591,6 @@
                 "label": "Ctrl+Shift+Y",
                 "userSettingsLabel": "ctrl+shift+y"
             },
-            "workbench.action.terminal.toggleTerminal": {
-                "label": "Ctrl+`",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+`"
-            },
             "editor.action.toggleWordWrap": {
                 "label": "Alt+Z",
                 "userSettingsLabel": "alt+z"
@@ -1622,5 +1767,14 @@
                 "userSettingsLabel": "ctrl+shift+i"
             }
         }
+    },
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/martin/projects/portfolio"
+            }
+        ],
+        "emptyWindows": []
     }
 }

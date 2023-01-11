@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/roboto-v30-latin-300.eot');
+  src: local(''),
+    url('/fonts/roboto-v30-latin-300.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/roboto-v30-latin-300.woff2') format('woff2'),
+    url('/fonts/roboto-v30-latin-300.woff') format('woff'),
+    url('/fonts/roboto-v30-latin-300.ttf') format('truetype'),
+    url('/fonts/roboto-v30-latin-300.svg#Roboto') format('svg');
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/roboto-v30-latin-regular.eot');
+  src: local(''),
+    url('/fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+    url('/fonts/roboto-v30-latin-regular.woff') format('woff'),
+    url('/fonts/roboto-v30-latin-regular.ttf') format('truetype'),
+    url('/fonts/roboto-v30-latin-regular.svg#Roboto') format('svg');
+}
+
+/* asap-600 - latin */
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/asap-v26-latin-600.eot');
+  src: local(''),
+    url('/fonts/asap-v26-latin-600.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/asap-v26-latin-600.woff2') format('woff2'),
+    url('/fonts/asap-v26-latin-600.woff') format('woff'),
+    url('/fonts/asap-v26-latin-600.ttf') format('truetype'),
+    url('/fonts/asap-v26-latin-600.svg#Asap') format('svg');
+}
+
+:root {
+  --hamburger-color: #38403D;
+  --hamburger-gap: 8px;
+  --hamburger-width: 28px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    position: absolute;
+    right: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #fff;
+    top: 5rem;
+
+    padding-top: 0;
+    height: 0;
+    transition: height .3s, padding-top .3s, top .3s;
+  }
+
+  .navbar.open {
+    height: 15em;
+    padding-block: 10px;
+    z-index: 10;
+  }
+}
+
+/* Hamburguer menu */
+
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+}
+
+.hamburger.is_active .hamburger_inner,
+.hamburger.is_active .hamburger_inner::before,
+.hamburger.is_active .hamburger_inner::after {
+  background-color: var(--hamburger-color);
+}
+
+.hamburger_box {
+  width: var(--hamburger-width);
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.hamburger_inner {
+  display: block;
+  top: 50%;
+}
+
+.hamburger_inner,
+.hamburger_inner::before,
+.hamburger_inner::after {
+  width: var(--hamburger-width);
+  height: 4px;
+  background-color: var(--hamburger-color);
+  border-radius: 4px;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
+
+
+.hamburger_inner::before,
+.hamburger_inner::after {
+  content: "";
+  display: block;
+}
+
+.hamburger_inner::before {
+  top: calc(var(--hamburger-gap) * -1);
+}
+
+.hamburger_inner::after {
+  bottom: calc(var(--hamburger-gap) * -1);
+}
+
+.hamburger__squeeze .hamburger_inner {
+  transition-duration: 0.075s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger__squeeze .hamburger_inner::before {
+  transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+}
+
+.hamburger__squeeze .hamburger_inner::after {
+  transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger__squeeze.is_active .hamburger_inner {
+  transform: rotate(45deg);
+  transition-delay: 0.12s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger__squeeze.is_active .hamburger_inner::before {
+  top: 0;
+  opacity: 0;
+  transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+}
+
+.hamburger__squeeze.is_active .hamburger_inner::after {
+  bottom: 0;
+  transform: rotate(-90deg);
+  transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+}

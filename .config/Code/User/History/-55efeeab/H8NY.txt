@@ -1,0 +1,4 @@
+1. cargar comentarios antes que la pagina
+10. esconder input comentario al postear
+9. juego
+5. bloquear usuario

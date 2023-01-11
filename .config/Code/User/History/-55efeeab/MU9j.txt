@@ -1,0 +1,6 @@
+2. al borrar comentario borrar todas las notificaciones asociadas
+3. bloquear usuario
+4. al clickear notificacion eliminarla y agregar X a la notificacion
+5. a veces las notificaciones se crean dobles
+7. cargar comentarios antes que la pagina
+8. index nav

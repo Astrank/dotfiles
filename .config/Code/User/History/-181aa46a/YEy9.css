@@ -1,0 +1,66 @@
+.menu_button {
+    width: 4em;
+    height: 4em;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.menu_button span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    left: 50%;
+    border-radius: 3px;
+    background-color: rgb(189, 63, 178);
+    
+    transform: translateX(-50%);
+    transition: background-color .3s;
+}
+
+.menu_button span.toggled {
+    background-color: transparent;
+}
+
+.menu_button span:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 8px;
+    width: 80%;
+    opacity: 1;
+    top: -6px;
+    right: 0;
+    background-color: rgb(189, 63, 178);
+
+    transition: width .3s, left .3s, top .3s, transform .5s;
+}
+
+.menu_button span.toggled:before {
+    width: 100%;
+    transform: translate(-50%, -50%) rotate(225deg);
+    left: 50%;
+    top: 50%;
+}
+
+.menu_button span:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 8px;
+    width: 100%;
+    opacity: 1;
+    top: 6px;
+    left: 0;
+    background-color: rgb(189, 63, 178);
+
+    transition: width .3s, left .3s, top .3s, transform .3s;
+}
+
+.menu_button span.toggled:after {
+    width: 100%;
+    transform: translate(-50%, -50%) rotate(-225deg);
+    left: 50%;
+    top: 50%;
+}

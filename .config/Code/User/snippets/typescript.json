@@ -1,0 +1,27 @@
+{
+	"Print to console": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+		],
+		"description": "Log output to console"
+	},
+	"React Component": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "rc",
+		"body": [
+			"const $TM_FILENAME_BASE = ($1) => {",
+				"\treturn (",
+					"\t\t<>",
+						"\t\t\t$2",
+					"\t\t</>",
+				"\t)",
+			"}",
+			"\n",
+			"export default $TM_FILENAME_BASE;"
+		],
+		"description": "Create new functional component"
+	},
+	
+}

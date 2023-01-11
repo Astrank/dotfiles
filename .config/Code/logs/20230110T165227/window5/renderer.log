@@ -1,0 +1,7 @@
+2023-01-10 16:55:46.046 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+2023-01-10 16:55:49.408 [info] [perf] Render performance baseline is 31ms
+2023-01-10 17:02:27.407 [error] ENOPRO: No file system provider found for resource 'vue-doctor:/home/martin/projects/visual-fretboard-vite/src/components/Fretboard.vue/Doctor.md'
+    at d.withProvider (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:609:14475)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async d.doWatch (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:609:28242)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:609:28108

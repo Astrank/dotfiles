@@ -1,0 +1,5 @@
+1. cargar comentarios antes que la pagina
+4. al clickear notificacion eliminarla y agregar X a la notificacion
+5. bloquear usuario
+6. instagram
+7. achicar texto en obra en mobile

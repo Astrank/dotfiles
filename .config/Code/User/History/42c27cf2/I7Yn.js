@@ -1,0 +1,57 @@
+import Header from '../components/Header'
+
+export default function Contacto() {
+    return (
+        <main className='mx-40'>
+            <Header />
+
+            <h1 className='text-4xl font-semibold mb-10'>Contacto</h1>
+
+            <form
+                className="flex flex-col"
+                action="https://formsubmit.co/46c8e5f4ab3f3c79b050148e5511b3cd"
+                method="POST"
+                id="contacto"
+            >
+                <div className="flex flex-col gap-4">
+                    <input
+                        className="p-2 border border-black rounded"
+                        type="text"
+                        name="name"
+                        placeholder="Nombre"
+                        required
+                    />
+                    <input
+                        className="p-2 border border-black rounded"
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        required
+                    />
+                    <input
+                        className="p-2 border border-black rounded"
+                        type="text"
+                        name="phone-number"
+                        placeholder="Telefono"
+                        required
+                    />
+                    <textarea
+                        className="p-2 border border-black rounded"
+                        name="message"
+                        id=""
+                        cols="30"
+                        rows="10"
+                        placeholder="Mensaje"
+                        required
+                    ></textarea>
+                </div>
+                <button
+                    className="bg-primary text-white px-6 py-4 rounded self-start"
+                    type="submit"
+                >
+                    Realizar consulta
+                </button>
+            </form>
+        </main>
+    )
+}

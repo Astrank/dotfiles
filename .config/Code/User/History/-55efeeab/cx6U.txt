@@ -1,0 +1,4 @@
+obra hover dropdown
+al borrar comentario borrar todas las respuestas y las notificaciones asociadas
+menu para borrar comentario y bloquear usuario
+al clickear notificacion eliminarla y agregar X a la notificacion

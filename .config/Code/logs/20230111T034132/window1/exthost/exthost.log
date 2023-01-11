@@ -1,0 +1,20 @@
+2023-01-11 03:41:44.084 [info] Extension host with pid 9638 started
+2023-01-11 03:41:44.084 [info] Skipping acquiring lock for /home/martin/.config/Code/User/workspaceStorage/84229dddaab0eaa6374fb025e71706aa.
+2023-01-11 03:41:44.251 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescriptreact'
+2023-01-11 03:41:44.252 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage:typescriptreact'
+2023-01-11 03:41:44.254 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-01-11 03:41:44.254 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-11 03:41:44.254 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-01-11 03:41:46.377 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-01-11 03:41:46.378 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-01-11 03:41:46.378 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-01-11 03:41:46.869 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-11 03:41:46.870 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-11 03:41:47.431 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-01-11 03:41:47.749 [info] Eager extensions activated
+2023-01-11 03:41:47.765 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-11 03:41:47.765 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-11 03:41:47.765 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-11 03:41:47.766 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-01-11 03:42:15.462 [info] Extension host terminating: received terminate message from renderer
+2023-01-11 03:42:15.486 [info] Extension host with pid 9638 exiting with code 0

@@ -1,0 +1,10 @@
+[
+    {
+        "image": "magnificent-weather.jpg",
+        "name": "magnificent-weather",
+        "url": "magnificent-weather.netlify.app",
+        "github": "https://github.com/astrank/weather-app",
+        "tags": ["react", "openweather-api", "netlify"],
+        "description": "Dui nunc mattis enim ut tellus elementum sagittis vitae. Adipiscing elit duis tristique sollicitudin nibh sit. Velit dignissim sodales ut eu sem integer vitae. Ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum.",
+    }
+]

@@ -1,0 +1,4 @@
+[Trace 20:02:27.550] VsCodeClientWorkspace: TextDocument.onDidOpen: vue-doctor:/home/martin/projects/visual-fretboard-vite/src/components/Fretboard.vue/Doctor.md
+[Trace 20:02:27.551] VsCodeClientWorkspace: TextDocument.onDidChanceContent: vue-doctor:/home/martin/projects/visual-fretboard-vite/src/components/Fretboard.vue/Doctor.md
+[Trace 20:05:27.603] VsCodeClientWorkspace: TextDocument.onDidClose: vue-doctor:/home/martin/projects/visual-fretboard-vite/src/components/Fretboard.vue/Doctor.md
+[Trace 20:05:27.603] VsCodeClientWorkspace: deleteDocument: vue-doctor:/home/martin/projects/visual-fretboard-vite/src/components/Fretboard.vue/Doctor.md

@@ -1,0 +1,182 @@
+import type { NextPage } from "next";
+import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
+import { useState } from "react";
+
+const Home: NextPage = () => {
+    const [isNavToggled, toggleNav] = useState(false);
+
+    return (
+        <>
+            <Head>
+                <title>Verónica Metélico</title>
+                <meta
+                    name="description"
+                    content="Cuentos y Reflexiones | Verónica Metélico"
+                />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+
+            <div className="flex flex-col-reverse md:grid md:grid-cols-2 h-screen text-primary-900">
+                <div className="relative h-full">
+                    <Image
+                        src="/veronica-metelico.webp"
+                        fill
+                        priority
+                        alt="Imagen de Verónica"
+                        className="object-cover object-top"
+                    />
+                </div>
+                <div className="flex flex-col justify-center items-center mx-10 my-8 gap-10 md:relative md:justify-between md:mx-0">
+                    <nav className="tracking-wide flex w-full justify-end lg:justify-center">
+                        <button
+                            onClick={() => toggleNav(!isNavToggled)}
+                            className={`hamburger hamburger__squeeze ${isNavToggled ? "is_active" : ""} md:px-8 lg:hidden`}
+                            type="button"
+                        >
+                            <span className="hamburger_box">
+                                <span className="hamburger_inner"></span>
+                            </span>
+                        </button>
+                        <div className={`navbar ${isNavToggled ? "open" : ""} flex gap-2 lg:gap-6`}>
+                            <ul
+                                className="flex flex-col justify-center gap-2 text-start px-4 md:px-8 lg:flex-row lg:text-start lg:gap-6"
+                                role="List"
+                                aria-label="Barra de Navegación"
+                            >
+                                <li>
+                                    <Link href="/sobre-mi">
+                                        Sobre mí
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/obra" className="hover:text-primary-700">Obra</Link>
+                                    <ul className="flex flex-col gap-2 ml-4 pt-2 lg:ml-0 lg:absolute lg:hidden lg:peer-hover:flex lg:hover:flex">
+                                        <li>
+                                            <Link
+                                                className="hover:text-primary-700"
+                                                href="/cuentos"
+                                            >
+                                                Cuentos
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                className="hover:text-primary-700"
+                                                href="/reflexiones"
+                                            >
+                                                Reflexiones
+                                            </Link>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <Link href="/invitados" className="hover:text-primary-700">Invitados</Link>
+                                </li>
+                                <li>Escritura grupal</li>
+                                <li>
+                                    <Link href="/contacto" className="hover:text-primary-700">Contacto</Link>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div className="flex flex-col justify-center items-center gap-10">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="291"
+                            height="99"
+                            fill="none"
+                            viewBox="0 0 291 99"
+                            className=""
+                            >
+                            <g fill="#38403D" filter="url(#filter0_d_78_445)">
+                                <path d="M40.661.611L24.978 31.773h-1.507L7.79.61h8.961l7.536 16.66L31.822.611h8.84zM119.116 17.842H96.508c1.06 4.195 5.01 6.68 9.369 6.68 3.829 0 6.518-1.426 8.432-3.34l3.3 6.07c-2.689 2.443-6.844 4.114-12.058 4.114-9.735 0-16.782-6.64-16.782-15.683C88.769 6.843 95.57 0 104.41 0c8.635 0 14.868 6.314 14.868 15.316-.041.693-.123 1.752-.163 2.526zM96.63 12.18h15.154c-.53-3.626-3.381-5.948-7.088-5.948-4.033-.04-7.007 2.119-8.066 5.948zM194.393.244v7.74c-.856-.489-2.281-.774-3.463-.774-3.951 0-6.313 1.915-7.739 4.48l-.041 19.105h-7.739V.611h7.943l-.407 3.503h.04c1.915-2.322 4.97-4.114 8.84-4.114.855 0 1.873.081 2.566.244zM248.651 15.683c0-9.125 7.21-15.683 16.213-15.683 9.083 0 16.212 6.558 16.212 15.683 0 9.206-7.169 15.683-16.212 15.683-9.003 0-16.213-6.477-16.213-15.683zm24.563 0c0-5.133-3.829-8.595-8.35-8.595-4.481 0-8.351 3.462-8.351 8.595 0 5.132 3.87 8.595 8.351 8.595 4.521 0 8.35-3.463 8.35-8.595zM43.309 90.471L41.679 52.1 24.571 90.594h-.652L6.811 52.099 5.18 90.471H4l1.71-41.956h.734l17.842 39.96 17.76-39.96h.733L44.49 90.47H43.31zM58.38 49.655v20.571h20.164v1.14H58.381v17.965h24.4v1.14H57.199V48.515h25.582v1.14h-24.4zM117.609 49.655H102.7v40.816h-1.181V49.655h-14.91v-1.14h31.041v1.14h-.041zM126.326 49.655v20.571h20.163v1.14h-20.163v17.965h24.4v1.14h-25.581V48.515h25.581v1.14h-24.4zM186.165 89.33v1.141h-25.541V48.515h1.181V89.33h24.36zM193.823 48.515h1.181V90.47h-1.181V48.515zM205.188 69.452c0-12.301 9.206-21.548 21.426-21.548 4.766 0 9.654 1.385 12.872 3.707l-.652 1.059c-3.299-2.404-7.862-3.585-12.302-3.585-11.446 0-20.122 8.758-20.122 20.327 0 11.568 8.635 20.326 20.122 20.326 4.4 0 9.247-1.303 12.302-3.585l.652 1.06c-3.218 2.321-8.106 3.706-12.872 3.706-12.22.082-21.426-9.165-21.426-21.467zM243.926 69.493c0-11.976 8.962-21.548 21.427-21.548 12.464 0 21.426 9.531 21.426 21.548 0 12.302-8.962 21.467-21.426 21.467-12.465.04-21.427-9.165-21.427-21.467zm41.59 0c0-11.283-8.88-20.326-20.163-20.326-11.284 0-20.164 9.083-20.164 20.326 0 11.854 8.88 20.286 20.164 20.286 11.283 0 20.163-8.391 20.163-20.286z"></path>
+                            </g>
+                            <defs>
+                                <filter
+                                id="filter0_d_78_445"
+                                width="290.779"
+                                height="98.96"
+                                x="0"
+                                y="0"
+                                colorInterpolationFilters="sRGB"
+                                filterUnits="userSpaceOnUse"
+                                >
+                                <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
+                                <feColorMatrix
+                                    in="SourceAlpha"
+                                    result="hardAlpha"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                ></feColorMatrix>
+                                <feOffset dy="4"></feOffset>
+                                <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                <feBlend
+                                    in2="BackgroundImageFix"
+                                    result="effect1_dropShadow_78_445"
+                                ></feBlend>
+                                <feBlend
+                                    in="SourceGraphic"
+                                    in2="effect1_dropShadow_78_445"
+                                    result="shape"
+                                ></feBlend>
+                                </filter>
+                            </defs>
+                        </svg>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            x="0"
+                            y="0"
+                            enableBackground="new 0 0 483.5 179.1"
+                            version="1.1"
+                            viewBox="0 0 483.5 179.1"
+                            xmlSpace="preserve"
+                            fill="currentColor"
+                            className="w-36 md:w-48 lg:w-72 hidden">
+                            <path d="M63.4 25.1l-26.7 53h-2.5l-26.7-53h15.2l12.8 28.4 12.8-28.4h15.1zM130.2 54.5H91.7c1.8 7.1 8.5 11.4 16 11.4 6.5 0 11.1-2.4 14.3-5.7l5.6 10.4c-4.6 4.2-11.7 7-20.5 7-16.6 0-28.6-11.3-28.6-26.7 0-15 11.6-26.7 26.6-26.7 14.7 0 25.3 10.8 25.3 26.1 0 1-.1 2.8-.2 4.2zm-38.3-9.7h25.8c-.9-6.2-5.8-10.2-12.1-10.2-6.8.1-11.9 3.7-13.7 10.2zM177.9 24.5v13.2c-1.4-.8-3.9-1.3-5.9-1.3-6.7 0-10.8 3.3-13.2 7.6l-.1 32.5h-13.2V25.1H159l-.7 6h.1c3.4-4 8.5-7 15.1-7 1.4 0 3.2.1 4.4.4zM192.9 50.8c0-15.5 12.3-26.7 27.6-26.7 15.4 0 27.6 11.2 27.6 26.7 0 15.6-12.2 26.7-27.6 26.7-15.3 0-27.6-11-27.6-26.7zm41.9 0c0-8.7-6.5-14.6-14.2-14.6-7.6 0-14.2 5.9-14.2 14.6s6.6 14.6 14.2 14.6c7.7 0 14.2-5.9 14.2-14.6zM310.6 45.8v30.7h-13.3V46.6c0-6.4-3.9-10.6-9.7-10.6-5.2 0-9.1 2.9-11.1 7.6v32.8h-13.3V25.1h13.5l-.7 4.8h.3c3.3-3.6 8-5.8 14-5.8 12.4 0 20.3 8.8 20.3 21.7zM325.7 8.5c0-4.9 3.9-8.4 8.6-8.5 4.8-.1 8.8 3.6 8.8 8.5 0 5.2-4 8.7-8.8 8.7-4.8.1-8.6-3.6-8.6-8.7zm2.2 16.6h13.3v51.4h-13.3V25.1zM358.2 50.9c0-15.2 11.8-26.8 27.7-26.8 10 0 15.2 2.9 18.3 5.6l-5.6 11c-2.4-2.4-6.3-4.5-12.2-4.5-8.3 0-14.8 6.1-14.8 14.7 0 8.4 6.1 14.5 14.7 14.5 6 0 10.1-1.9 12.5-4.4l5.3 10.7c-2.9 2.5-8 5.8-18.2 5.8-16.2 0-27.7-11.5-27.7-26.6zM472.8 25.1v51.4h-13.6l.7-4.6h-.4c-3.1 3.3-7.7 5.6-14 5.6-14.3 0-26.2-11.4-26.2-26.7 0-15.3 11.9-26.7 26.2-26.7 6.3 0 10.9 2.3 14 5.6h.4l-.7-4.6h13.6zm-13.4 33.5V43c-2.4-4.4-6.8-6.8-12.4-6.8-8.6 0-14.3 6.1-14.3 14.6s5.7 14.6 14.3 14.6c5.6 0 10-2.4 12.4-6.8zM67.9 178.1l-2.7-65.3L36 178.3h-1.1L5.7 112.8 3 178.1H1l2.9-71.4h1.2l30.4 68.1 30.3-68.1H67l2.9 71.4h-2zM93.5 108.6v35.1h34.3v1.9H93.5v30.6h41.6v1.9H91.5v-71.4h43.6v1.9H93.5zM194.4 108.6H169v69.5h-2v-69.5h-25.4v-1.9h52.8v1.9zM209.3 108.6v35.1h34.3v1.9h-34.3v30.6h41.6v1.9h-43.6v-71.4h43.6v1.9h-41.6zM311.2 176.2v1.9h-43.5v-71.4h2v69.5h41.5zM324.2 106.7h2v71.4h-2v-71.4zM343.6 142.4c0-20.9 15.6-36.7 36.5-36.7 8.1 0 16.5 2.3 21.9 6.3l-1.1 1.8c-5.6-4.1-13.4-6.1-20.9-6.1-19.5 0-34.2 14.9-34.2 34.7S360.5 177 380 177c7.5 0 15.8-2.2 20.9-6.1l1.1 1.8c-5.5 4-13.8 6.3-21.9 6.3-20.8.1-36.5-15.7-36.5-36.6zM409.6 142.5c0-20.4 15.2-36.7 36.5-36.7 21.2 0 36.5 16.3 36.5 36.7 0 20.9-15.2 36.6-36.5 36.6s-36.5-15.7-36.5-36.6zm70.8 0c0-19.2-15.1-34.7-34.3-34.7-19.2 0-34.3 15.4-34.3 34.7 0 20.2 15.1 34.6 34.3 34.6 19.1-.1 34.3-14.4 34.3-34.6z"></path>
+                        </svg>
+                        <span className="font-roboto font-light md:text-lg uppercase">Cuentos y Reflexiones</span>
+                    </div>
+                    <div className="hidden gap-10 items-center md:flex">
+                        <ul className="flex gap-6" role="List" aria-label="Redes Sociales">
+                            <li aria-label="Instagram">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    className="h-5"
+                                    fill="currentColor"
+                                >
+                                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                </svg>
+                            </li>
+                            <li aria-label="Facebook">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512"
+                                    fill="currentColor"
+                                    className="h-5"
+                                >
+                                    <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                                </svg>
+                            </li>
+                            <li aria-label="TikTok">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    fill="currentColor"
+                                    className="h-5"
+                                >
+                                    <path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" />
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </>
+    );
+};
+
+export default Home;

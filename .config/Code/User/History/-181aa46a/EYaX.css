@@ -1,0 +1,28 @@
+.menu_button {
+    width: 4em;
+    height: 4em;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.menu_button span {
+    height: 8px;
+    width: 100%;
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(189, 63, 178);
+    border-radius: 3px;
+
+    transition: background-color .3s;
+}
+
+.menu_button span+span {
+    margin-top: 14px;
+}
+
+.menu_button span.toggled {
+    background-color: transparent;
+}

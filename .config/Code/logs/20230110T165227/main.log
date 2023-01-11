@@ -1,0 +1,12 @@
+2023-01-10 16:52:27.605 [info] update#setState idle
+2023-01-10 16:52:29.151 [info] Starting extension host with pid 8735 (fork() took 12 ms).
+2023-01-10 16:52:45.954 [info] Starting extension host with pid 8922 (fork() took 13 ms).
+2023-01-10 16:52:49.312 [info] Extension host with pid 8922 exited with code: 0, signal: null.
+2023-01-10 16:52:57.610 [info] update#setState checking for updates
+2023-01-10 16:52:57.625 [info] update#setState available for download
+2023-01-10 16:54:53.782 [info] Starting extension host with pid 9341 (fork() took 28 ms).
+2023-01-10 16:54:55.733 [info] Extension host with pid 9341 exited with code: 0, signal: null.
+2023-01-10 16:55:45.968 [info] Starting extension host with pid 9515 (fork() took 12 ms).
+2023-01-10 17:16:17.925 [info] Extension host with pid 8735 exited with code: 0, signal: null.
+2023-01-10 17:18:49.039 [info] Waiting for extension host with pid 9515 to exit.
+2023-01-10 17:18:49.103 [info] Extension host with pid 9515 exited with code: 0, signal: null.

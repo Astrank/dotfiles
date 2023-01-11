@@ -1,9 +1,0 @@
-[2022-08-22 01:24:49.002] [sharedprocess] [info] Starting worker process with pid 10552 (type: fileWatcher, window: 1).
-[2022-08-22 01:24:54.659] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
-[2022-08-22 01:24:58.030] [sharedprocess] [info] Getting Manifest... esbenp.prettier-vscode
-[2022-08-22 01:25:00.033] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
-[2022-08-22 01:27:37.469] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /home/martin/.config/Code/CachedExtensionVSIXs/esbenp.prettier-vscode-9.8.0
-[2022-08-22 01:27:37.883] [sharedprocess] [info] Extracted extension to /home/martin/.vscode/extensions/.e53e18d2-673f-454a-b26e-79aa32a2946b: esbenp.prettier-vscode
-[2022-08-22 01:27:37.928] [sharedprocess] [info] Renamed to /home/martin/.vscode/extensions/esbenp.prettier-vscode-9.8.0
-[2022-08-22 01:27:37.938] [sharedprocess] [info] Extracting completed. esbenp.prettier-vscode
-[2022-08-22 01:27:37.986] [sharedprocess] [info] Extension installed successfully: esbenp.prettier-vscode

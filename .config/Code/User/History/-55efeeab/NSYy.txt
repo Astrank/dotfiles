@@ -1,0 +1,2 @@
+obra hover dropdown
+al borrar comentario borrar todas las respuestas y las notificaciones asociadas

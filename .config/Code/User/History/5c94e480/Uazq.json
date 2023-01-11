@@ -1,0 +1,36 @@
+{ 
+    "notes": ["C", "C♯", "D", "D♯", "E", "F", "F♯", "G", "G♯", "A", "A♯", "B"],
+    "notes-flat": ["C", "D♭", "D", "E♭", "E", "F", "G♭", "G", "A♭", "A", "B♭", "B"],
+    "scales": [
+        {
+            "name": "Major",
+            "pattern": [2, 2, 1, 2, 2, 2]
+        },
+        {
+            "name": "Dorian",
+            "pattern": [2, 1, 2, 2, 2, 1]
+        },
+        {
+            "name": "Phrygian",
+            "pattern": [1, 2, 2, 2, 1, 2]
+        },
+        {
+            "name": "Lydian",
+            "pattern": [2, 2, 2, 1, 2, 2]
+        },
+        {
+            "name": "Mixolydian",
+            "pattern": [2, 2, 1, 2, 2, 1]
+        },
+        {
+            "name": "Minor",
+            "pattern": [2, 1, 2, 2, 1, 2]
+        },
+        {
+            "name": "Locrian",
+            "pattern": [1, 2, 2, 1, 2, 2]
+        }
+    ],
+    "frets": 15,
+    "strings": [4, 11, 7, 2, 9, 4]
+}

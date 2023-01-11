@@ -1,0 +1,58 @@
+[
+    {
+        "image": "vero-metelico.jpg",
+        "name": "blog",
+        "url": "veronicametelico.com",
+        "github": "https://github.com/astrank/vero-metelico",
+        "tags": [
+            "react",
+            "nextjs",
+            "typescript",
+            "firebase",
+            "netlify-cms",
+            "tailwindcss",
+            "instagram-api"
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "image": "magnificent-weather.jpg",
+        "name": "magnificent-weather",
+        "url": "magnificent-weather.netlify.app",
+        "github": "https://github.com/astrank/weather-app",
+        "tags": ["react", "openweather-api", "netlify"],
+        "description": "Dui nunc mattis enim ut tellus elementum sagittis vitae. Adipiscing elit duis tristique sollicitudin nibh sit. Velit dignissim sodales ut eu sem integer vitae. Ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum."
+    },
+    {
+        "image": "visual-fretboard.jpg",
+        "name": "visual-fretboard",
+        "url": "visual-fretboard.netlify.app",
+        "github": "https://github.com/astrank/visual-fretboard",
+        "tags": ["vue", "netlify", "web-audio-api", "spotify-api"],
+        "description": "Una aplicacion para visualizar notas, escalas y acordes en el diapason de la guitarra. Incluye un metronomo y la posibilidad de obtener el tempo y la escala de cualquier cancion de Spotify."
+    },
+    {
+        "image": "law-firm.jpg",
+        "name": "law-firm",
+        "url": "law-firm1.netlify.app",
+        "github": "https://github.com/astrank/law-firm",
+        "tags": ["react", "nextjs", "netlify-cms", "tailwindcss"],
+        "description": "Iaculis nunc sed augue lacus viverra. At in tellus integer feugiat scelerisque varius morbi. Venenatis a condimentum vitae sapien pellentesque habitant."
+    },
+    {
+        "image": "basement.jpg",
+        "name": "basement-challenge",
+        "url": "basement-challenge-gules.vercel.app",
+        "github": "https://github.com/astrank/basement-challenge",
+        "tags": ["react", "typescript", "tailwindcss"],
+        "description": "Iaculis nunc sed augue lacus viverra. At in tellus integer feugiat scelerisque varius morbi. Venenatis a condimentum vitae sapien pellentesque habitant."
+    },
+    {
+        "image": "softvision.jpg",
+        "name": " cognizant-softvision-challenge",
+        "url": "cognizant-softvision-challenge-liard.vercel.app",
+        "github": "https://github.com/astrank/cognizant-softvision-challenge",
+        "tags": ["react", "vercel"],
+        "description": "Iaculis nunc sed augue lacus viverra. At in tellus integer feugiat scelerisque varius morbi. Venenatis a condimentum vitae sapien pellentesque habitant."
+    }
+]

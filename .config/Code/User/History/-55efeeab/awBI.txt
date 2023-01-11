@@ -1,0 +1,11 @@
+1. cargar comentarios antes que la pagina
+2. al borrar comentario borrar todas las notificaciones asociadas
+3. a veces las notificaciones se crean dobles
+4. al clickear notificacion eliminarla y agregar X a la notificacion
+5. bloquear usuario
+
+
+admin a admin = nadie
+admin a random = random
+random a admin = admin
+random a random = ultimo random

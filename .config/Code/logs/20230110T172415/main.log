@@ -1,0 +1,6 @@
+2023-01-10 17:24:15.648 [info] update#setState idle
+2023-01-10 17:24:17.124 [info] Starting extension host with pid 11692 (fork() took 44 ms).
+2023-01-10 17:24:45.652 [info] update#setState checking for updates
+2023-01-10 17:24:45.666 [info] update#setState available for download
+2023-01-11 00:08:52.559 [info] Waiting for extension host with pid 11692 to exit.
+2023-01-11 00:08:53.249 [info] Extension host with pid 11692 exited with code: 0, signal: null.

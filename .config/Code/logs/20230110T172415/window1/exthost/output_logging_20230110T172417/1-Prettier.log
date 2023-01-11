@@ -1,0 +1,378 @@
+["INFO" - 5:24:18 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 5:24:18 PM] Extension Version: 9.10.3.
+["INFO" - 5:29:53 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/src/store/index.js
+["INFO" - 5:29:53 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 5:29:53 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 5:29:53 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 5:29:53 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 5:29:53 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/src/store/index.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 5:29:53 PM] Formatting completed in 268ms.
+["INFO" - 5:29:54 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/src/store/index.js
+["INFO" - 5:29:54 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 5:29:54 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 5:29:54 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 5:29:54 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 5:29:54 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/src/store/index.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 5:29:54 PM] Formatting completed in 51ms.
+["INFO" - 5:32:36 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/src/store/index.js
+["INFO" - 5:32:36 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 5:32:36 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 5:32:36 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 5:32:36 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 5:32:36 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/src/store/index.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 5:32:36 PM] Formatting completed in 57ms.
+["INFO" - 5:32:43 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/src/store/index.js
+["INFO" - 5:32:43 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 5:32:43 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 5:32:43 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 5:32:43 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 5:32:43 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/src/store/index.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["ERROR" - 5:32:43 PM] Error formatting document.
+["ERROR" - 5:32:43 PM] Unexpected token (6:12)
+  4 |     state (){
+  5 |         tempo: 80,
+> 6 |         key: 0,
+    |            ^
+  7 |         mode: 0,
+  8 |         loading: true,
+  9 |     },
+SyntaxError: Unexpected token (6:12)
+  4 |     state (){
+  5 |         tempo: 80,
+> 6 |         key: 0,
+    |            ^
+  7 |         mode: 0,
+  8 |         loading: true,
+  9 |     },
+	at d (/home/martin/.vscode/extensions/esbenp.prettier-vscode-9.10.3/node_modules/prettier/parser-babel.js:22:1054)
+	at f (/home/martin/.vscode/extensions/esbenp.prettier-vscode-9.10.3/node_modules/prettier/parser-babel.js:22:1287)
+	at Object.parse (/home/martin/.vscode/extensions/esbenp.prettier-vscode-9.10.3/node_modules/prettier/parser-babel.js:29:53146)
+	at Object.parse (/home/martin/.vscode/extensions/esbenp.prettier-vscode-9.10.3/node_modules/prettier/index.js:7331:23)
+	at coreFormat (/home/martin/.vscode/extensions/esbenp.prettier-vscode-9.10.3/node_modules/prettier/index.js:8645:18)
+	at formatWithCursor2 (/home/martin/.vscode/extensions/esbenp.prettier-vscode-9.10.3/node_modules/prettier/index.js:8837:18)
+	at /home/martin/.vscode/extensions/esbenp.prettier-vscode-9.10.3/node_modules/prettier/index.js:37832:12
+	at Object.format (/home/martin/.vscode/extensions/esbenp.prettier-vscode-9.10.3/node_modules/prettier/index.js:37846:12)
+	at t.default.format (/home/martin/.vscode/extensions/esbenp.prettier-vscode-9.10.3/dist/extension.js:1:14731)
+	at async t.PrettierEditProvider.provideEdits (/home/martin/.vscode/extensions/esbenp.prettier-vscode-9.10.3/dist/extension.js:1:11417)
+	at async B.provideDocumentFormattingEdits (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:45902)
+["INFO" - 5:32:43 PM] Formatting completed in 48ms.
+["INFO" - 5:33:00 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/src/store/index.js
+["INFO" - 5:33:00 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 5:33:00 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 5:33:00 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 5:33:00 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 5:33:00 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/src/store/index.js",
+  "parser": "babel",
+  "rangeEnd": 163,
+  "rangeStart": 97,
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 5:33:00 PM] Formatting completed in 27ms.
+["INFO" - 5:33:02 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/src/store/index.js
+["INFO" - 5:33:02 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 5:33:02 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 5:33:02 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 5:33:02 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 5:33:02 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/src/store/index.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 5:33:02 PM] Formatting completed in 31ms.
+["INFO" - 5:33:34 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/src/store/index.js
+["INFO" - 5:33:34 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 5:33:34 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 5:33:34 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 5:33:34 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 5:33:34 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/src/store/index.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 5:33:34 PM] Formatting completed in 26ms.
+["INFO" - 5:33:44 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/src/store/index.js
+["INFO" - 5:33:44 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 5:33:44 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 5:33:44 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 5:33:44 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 5:33:44 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/src/store/index.js",
+  "parser": "babel",
+  "rangeEnd": 679,
+  "rangeStart": 569,
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 5:33:44 PM] Formatting completed in 52ms.
+["INFO" - 5:34:09 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/src/store/index.js
+["INFO" - 5:34:09 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 5:34:09 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 5:34:09 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 5:34:09 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 5:34:09 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/src/store/index.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 5:34:09 PM] Formatting completed in 42ms.
+["INFO" - 5:34:43 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/src/store/index.js
+["INFO" - 5:34:43 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 5:34:43 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 5:34:43 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 5:34:43 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 5:34:43 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/src/store/index.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 5:34:43 PM] Formatting completed in 32ms.
+["INFO" - 5:44:30 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/src/main.js
+["INFO" - 5:44:30 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 5:44:30 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 5:44:30 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 5:44:30 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 5:44:30 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/src/main.js",
+  "parser": "babel",
+  "rangeEnd": 108,
+  "rangeStart": 81,
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 5:44:30 PM] Formatting completed in 69ms.
+["INFO" - 5:44:39 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/src/main.js
+["INFO" - 5:44:39 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 5:44:39 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 5:44:39 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 5:44:39 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 5:44:39 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/src/main.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 5:44:39 PM] Formatting completed in 10ms.
+["INFO" - 5:53:27 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/src/store/index.js
+["INFO" - 5:53:27 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 5:53:27 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 5:53:27 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 5:53:27 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 5:53:27 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/src/store/index.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 5:53:27 PM] Formatting completed in 17ms.
+["INFO" - 7:40:39 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/functions/new-access-token.js
+["INFO" - 7:40:39 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 7:40:39 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 7:40:39 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 7:40:39 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 7:40:39 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/functions/new-access-token.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 7:40:39 PM] Formatting completed in 145ms.
+["INFO" - 7:41:50 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/functions/new-access-token.js
+["INFO" - 7:41:50 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 7:41:50 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 7:41:50 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 7:41:50 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 7:41:50 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/functions/new-access-token.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 7:41:50 PM] Formatting completed in 41ms.
+["INFO" - 7:46:34 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/functions/new-access-token.js
+["INFO" - 7:46:34 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 7:46:34 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 7:46:34 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 7:46:34 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 7:46:34 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/functions/new-access-token.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 7:46:34 PM] Formatting completed in 16ms.
+["INFO" - 8:13:34 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/functions/new-access-token.js
+["INFO" - 8:13:34 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 8:13:34 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 8:13:34 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 8:13:34 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 8:13:34 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/functions/new-access-token.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 8:13:34 PM] Formatting completed in 124ms.
+["INFO" - 9:14:56 PM] Formatting file:///home/martin/projects/visual-fretboard-vite/functions/new-access-token.js
+["INFO" - 9:14:56 PM] Using config file at '/home/martin/projects/.prettierrc'
+["INFO" - 9:14:56 PM] Using ignore file (if present) at /home/martin/projects/visual-fretboard-vite/.prettierignore
+["INFO" - 9:14:56 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 9:14:56 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 9:14:56 PM] Prettier Options:
+{
+  "filepath": "/home/martin/projects/visual-fretboard-vite/functions/new-access-token.js",
+  "parser": "babel",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false
+}
+["INFO" - 9:14:56 PM] Formatting completed in 543ms.

@@ -1,0 +1,2 @@
+2023-01-11 03:57:52.368 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+2023-01-11 03:57:55.344 [info] [perf] Render performance baseline is 53ms

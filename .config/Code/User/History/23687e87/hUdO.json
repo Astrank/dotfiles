@@ -1,0 +1,18 @@
+{
+  "name": "juan-topo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "juan-topo.js",
+  "scripts": {
+    "dev": "node ."
+  },
+  "keywords": [],
+  "author": "astrank",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^1.2.0",
+    "discord-api-types": "^0.37.11",
+    "discord.js": "^14.5.0",
+    "dotenv": "^16.0.2"
+  }
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "image": "vero-metelico.jpg",
+        "name": "blog",
+        "url": "veronicametelico.com",
+        "github": "https://github.com/astrank/vero-metelico",
+        "tags": [
+            "react",
+            "nextjs",
+            "typescript",
+            "firebase",
+            "netlify-cms",
+            "tailwindcss",
+            "instagram-api"
+        ],
+        "description": "Blog dinámico creado con NextJS. Cuenta con CMS, sistema de comentarios y likes, despliega feed de Instagram."
+    },
+    {
+        "image": "visual-fretboard.jpg",
+        "name": "visual-fretboard",
+        "url": "visual-fretboard.netlify.app",
+        "github": "https://github.com/astrank/visual-fretboard",
+        "tags": ["vue", "netlify", "web-audio-api", "spotify-api"],
+        "description": "Una aplicación para visualizar notas, escalas y acordes en el diapasón de la guitarra. Incluye un metrónomo y la posibilidad de obtener el tempo y la escala de cualquier canción de Spotify."
+    },
+    {
+        "image": "magnificent-weather.jpg",
+        "name": "magnificent-weather",
+        "url": "magnificent-weather.netlify.app",
+        "github": "https://github.com/astrank/weather-app",
+        "tags": ["react", "openweather-api", "netlify"],
+        "description": "Aplicación para obtener información meteorológica de cualquier ciudad del mundo."
+    },
+    {
+        "image": "basement.jpg",
+        "name": "basement-challenge",
+        "url": "basement-challenge-gules.vercel.app",
+        "github": "https://github.com/astrank/basement-challenge",
+        "tags": ["react", "typescript", "tailwindcss"],
+        "description": "Challenge de Gonzalo Pozzo y Basement Studio. La idea era crear el front-end de una tienda aplicando el diseño que nos dieron en Figma. Cuenta con sistema de carrito y consume los productos de un mock."
+    },
+    {
+        "image": "law-firm.jpg",
+        "name": "law-firm",
+        "url": "law-firm1.netlify.app",
+        "github": "https://github.com/astrank/law-firm",
+        "tags": ["react", "nextjs", "netlify-cms", "tailwindcss"],
+        "description": "Template para crear web dinámica autogestionable con NextJS y NetlifyCMS."
+    },
+    {
+        "image": "softvision.jpg",
+        "name": " cognizant-softvision-challenge",
+        "url": "cognizant-softvision-challenge-liard.vercel.app",
+        "github": "https://github.com/astrank/cognizant-softvision-challenge",
+        "tags": ["react", "sass", "vercel"],
+        "description": "Pequeña aplicación de práctica para administrar un proceso de selección de personal. "
+    }
+]

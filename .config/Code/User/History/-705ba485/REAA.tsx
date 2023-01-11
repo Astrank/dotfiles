@@ -1,0 +1,54 @@
+import { useEffect, useState } from "react";
+import Theory from "../public/data.json";
+import { useTheory } from "../utils/Theory";
+import Note from "./Note";
+
+type StringProps = {
+    defaultTuning: number,
+}
+
+const String = ({ defaultTuning }: StringProps) => {
+    const [tuning, setTuning] = useState<number>(defaultTuning);
+    const [stringNotes, setStringNotes] = useState<string[]>([]);
+    const [noteIndexes, setNoteIndexes] = useState<number[]>([]);
+    const { scaleNotes, highlightedNotes } = useTheory();
+
+    {/* Fill string notes */}
+    useEffect(() => {
+        let notes = [];
+        let noteIndexes = [];
+        let noteIndex = tuning;
+        
+        for (let i = 0; i < Theory.frets; i++) {
+            noteIndex++;
+
+            if (noteIndex >= Theory.notes.length) {
+                noteIndex = 0;
+            }
+
+            notes.push(Theory.notes[noteIndex]);
+            noteIndexes.push(noteIndex);
+        }
+
+        setStringNotes(notes);
+        setNoteIndexes(noteIndexes);
+    }, [tuning])
+
+    return (
+        <div className="flex gap-4 h-full">
+            <select name="nut" className="cursor-pointer px-2 rounded bg-neutral-800 text-white mr-2" onChange={e => setTuning(Number(e.target.value))} defaultValue={tuning}>
+                {Theory.notes.map((note, i) => (
+                    <option value={i} key={i}>
+                            {note}
+                    </option> 
+                ))}
+            </select>
+            {noteIndexes.length > 0 && 
+                noteIndexes.map((note, i) => (
+                    <Note key={i} note={Theory.notes[note]} noteIndex={note} highlighted={highlightedNotes.includes(note)} />
+            ))}
+        </div>
+    )
+}
+
+export default String;

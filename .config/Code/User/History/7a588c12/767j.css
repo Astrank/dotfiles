@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --clr-tonic: "#67d55b";
+  --clr-supertonic: "#dce772";
+  --clr-mediant: "#4472e0";
+  --clr-subdominant: "#bf8bd6";
+  --clr-dominant: "#de4347";
+  --clr-submediant: "#34b9b6";
+  --clr-leading: "#d89d5b";
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,8 @@
+2023-01-11 00:57:35.406 [info] update#setState idle
+2023-01-11 00:57:44.254 [info] Starting extension host with pid 2964 (fork() took 8 ms).
+2023-01-11 00:58:05.410 [info] update#setState checking for updates
+2023-01-11 00:58:05.424 [info] update#setState available for download
+2023-01-11 03:01:29.917 [info] Enabling inspect port on extension host with pid 2964.
+2023-01-11 03:01:30.864 [info] Enabling inspect port on extension host with pid 2964.
+2023-01-11 03:41:27.507 [info] Waiting for extension host with pid 2964 to exit.
+2023-01-11 03:41:27.853 [info] Extension host with pid 2964 exited with code: 0, signal: null.
