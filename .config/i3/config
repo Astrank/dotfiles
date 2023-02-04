@@ -1,5 +1,13 @@
 include ~/.config/i3/keybindings
 
+# floating dialogs
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="bubble"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [window_role="Preferences"] floating enable
+for_window [window_type="dialog"] floating enable
+for_window [window_type="menu"] floating enable
+
 # launch polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
@@ -12,8 +20,10 @@ font pango: Noto Sans Regular 10
 workspace_layout default
 
 # border indicator on windows:
-new_window pixel 1
-for_window [all] border pixel 0
+# new_window pixel 1
+# for_window [all] border pixel 0
+default_border none
+default_floating_border normal
 
 # hide borders when there's one window only 
 hide_edge_borders smart
@@ -83,7 +93,6 @@ set $ws10 "10:"
 
 # bind program to workspace and focus to them on startup:
 assign [class="Alacritty"] $ws1
-assign [class="(?i)brave"] $ws2
 assign [class="(?i)Firefox"] $ws2
 assign [class="(?i)code"] $ws3
 assign [class="(?i)Okular"] $ws3
@@ -91,6 +100,8 @@ assign [class="(?i)Strawberry"] $ws3
 assign [class="(?i)Rhythmbox"] $ws3
 assign [class="(?i)Discord"] $ws3
 assign [class="REAPER"] $ws3
+assign [class="(?i)brave"] $ws4
+assign [class="(?i)gimp"] $ws4
 assign [class="(?i)pcmanfm"] $ws5
 assign [class="(?i)thunar"] $ws5
 
@@ -251,10 +262,10 @@ set $transparent	#00000000
 
 # define colors for windows:
 #class		        	border		bground		text		indicator	child_border
-client.focused		    $lightblue	$darkblue	$white		$grey		$mediumgrey
-client.unfocused	    $transparent $darkblue	$grey		$grey		$darkgrey
-client.focused_inactive	$transparent	$darkblue	$grey		$grey		$black
-client.urgent		    $urgentred	$urgentred	$white		$grey		$yellowbrown
+# client.focused		    $lightblue	$darkblue	$white		$grey		$mediumgrey
+# client.unfocused	    $transparent $darkblue	$grey		$grey		$darkgrey
+# client.focused_inactive	$transparent	$darkblue	$grey		$grey		$black
+# client.urgent		    $urgentred	$urgentred	$white		$grey		$yellowbrown
 
 ############################################
 # bar settings (input comes from i3blocks) #
