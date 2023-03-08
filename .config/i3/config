@@ -28,19 +28,14 @@ default_floating_border normal
 # hide borders when there's one window only 
 hide_edge_borders smart
 
-# set inner/outer gaps
-gaps inner 8
-gaps outer -8
-gaps horizontal 2
-gaps bottom 2
-
 # workspace specific gaps
-workspace $ws2 gaps outer 0
-workspace $ws2 gaps inner 0
-workspace $ws4 gaps outer -8
-workspace $ws4 gaps inner 8
-workspace $ws6 gaps outer -8
-workspace $ws6 gaps inner 8
+workspace $ws1 gaps inner 6
+workspace $ws1 gaps outer -6
+workspace $ws1 gaps horizontal 2
+workspace $ws1 gaps vertical 2
+workspace $ws1 gaps bottom 2
+#workspace $ws2 gaps outer 0 
+#workspace $ws2 gaps inner 0
 
 # resize window (you can also use the mouse for that):
 #mode "resize" {
@@ -115,32 +110,10 @@ for_window [class=Thunderbird] focus
 for_window [class=TelegramDesktop] focus
 for_window [class=(?i)thunar] focus
 
+
 ##############
 # compositor #
 ##############
-
-# transparency
-# uncomment one of them to be used (picom package is installed per default)
-# options could need changes, related to used GPU and drivers.
-# to find the right setting consult the archwiki or ask at the forum.
-#
-# xcompmgr: https://wiki.archlinux.org/title/Xcompmgr
-# manpage: https://man.archlinux.org/man/xcompmgr.1.en
-#exec --no-startup-id xcompmgr -C -n &
-# or an more specialized config like this:
-#exec --no-startup-id xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
-#
-# or:
-#
-# picom: https://wiki.archlinux.org/title/Picom
-# manpage: https://man.archlinux.org/man/picom.1.en
-# The default configuration is available in /etc/xdg/picom.conf 
-# For modifications, it can be copied to ~/.config/picom/picom.conf or ~/.config/picom.conf
-#
-# using default config 
-# exec_always --no-startup-id picom -b
-#
-# for custom config:
 # exec_always --no-startup-id picom --config  ~/.config/picom/picom.conf
 
 #############################################
@@ -235,8 +208,7 @@ for_window [window_role="About"] floating enable
 # set border of floating window
 for_window [class="urxvt"] border pixel 1
 
-# set size of floating window
-#for_window [window_role="(?i)GtkFileChooserDialog"] resize set 640 480 #to set size of file choose dialog
+#for_window [class=".*"] resize set 640 480 #to change size of all floating windows 
 #for_window [class=".*"] resize set 640 480 #to change size of all floating windows 
 
 # set position of floating window
