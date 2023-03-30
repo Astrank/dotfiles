@@ -21,19 +21,26 @@ workspace_layout default
 
 # border indicator on windows:
 # new_window pixel 1
-# for_window [all] border pixel 0
+for_window [all] border pixel 2
 default_border none
-default_floating_border normal
+
+# normal
+default_floating_border none
 
 # hide borders when there's one window only 
 hide_edge_borders smart
 
+# set inner/outer gaps
+#gaps inner 6
+#gaps outer -6
+#gaps horizontal 1
+#gaps vertical 1
+#gaps bottom 1
+
 # workspace specific gaps
-workspace $ws1 gaps inner 6
-workspace $ws1 gaps outer -6
-workspace $ws1 gaps horizontal 2
-workspace $ws1 gaps vertical 2
-workspace $ws1 gaps bottom 2
+workspace $ws1 gaps horizontal 1
+workspace $ws1 gaps vertical 1
+workspace $ws1 gaps bottom 1
 #workspace $ws2 gaps outer 0 
 #workspace $ws2 gaps inner 0
 
@@ -110,11 +117,6 @@ for_window [class=Thunderbird] focus
 for_window [class=TelegramDesktop] focus
 for_window [class=(?i)thunar] focus
 
-
-##############
-# compositor #
-##############
-# exec_always --no-startup-id picom --config  ~/.config/picom/picom.conf
 
 #############################################
 # autostart applications/services on login: #
@@ -214,6 +216,11 @@ for_window [class="urxvt"] border pixel 1
 # set position of floating window
 #for_window [class=".*"] move position center
 
+#for_window [class=".*"] resize set 640 480 #to change size of all floating windows 
+
+# set position of floating window
+#for_window [class=".*"] move position center
+
 ######################################
 # color settings for bar and windows #
 ######################################
@@ -234,7 +241,7 @@ set $transparent	#00000000
 
 # define colors for windows:
 #class		        	border		bground		text		indicator	child_border
-# client.focused		    $lightblue	$darkblue	$white		$grey		$mediumgrey
+# client.focused		    #4c7899	$darkblue	$white		$grey		$mediumgrey
 # client.unfocused	    $transparent $darkblue	$grey		$grey		$darkgrey
 # client.focused_inactive	$transparent	$darkblue	$grey		$grey		$black
 # client.urgent		    $urgentred	$urgentred	$white		$grey		$yellowbrown
